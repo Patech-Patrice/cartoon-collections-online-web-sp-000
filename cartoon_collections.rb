@@ -23,6 +23,6 @@ def find_the_cheese(array)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
   array.find do |cheese| #returns the first element of the array that is cheese
-    cheese == "cheddar" || cheese == "gouda" || cheese == "camembert"
+    cheese == "cheddar" || cheese == "gouda" || cheese == "camembert"  # returns nil if the array does not contain a type of cheese
   end
 end

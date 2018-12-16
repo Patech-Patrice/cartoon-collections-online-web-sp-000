@@ -8,7 +8,7 @@ end
 def summon_captain_planet(array)
   planeteer_calls = [] #returns an array with the same number of elements that it was given
   array.collect do |calls|
-    planeteer_calls << "#{calls.capitalize}!" #
+    planeteer_calls << "#{calls.capitalize}!" #capitalizes each element and adds an exclamation mark (test 1)
   end
   planeteer_calls
 end

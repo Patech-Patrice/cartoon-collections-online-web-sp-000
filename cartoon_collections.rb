@@ -13,8 +13,8 @@ def summon_captain_planet(array)
   planeteer_calls
 end
 
-def long_planeteer_calls(array)# code an argument here
-  # Your code here
+def long_planeteer_calls(array)
+  
 end
 
 def find_the_cheese(array)# code an argument here
